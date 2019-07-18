@@ -1,0 +1,165 @@
+@font-face {
+	font-family: 'CalibreRegular';
+	src: url('./fonts/CalibreRegular.otf') format('opentype');
+}
+
+body {
+  margin: 0px;
+}
+
+#testDiv {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  font-size: 40px;
+  margin: 30px;
+  min-height: 500px;
+}
+
+.navBar {
+  width: 100%;
+  border: 2px solid black;
+}
+
+footer {
+  margin-top: 35px;
+  min-height: 500px;
+}
+
+.footerHead {
+  background-color: #101820;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+}
+.iconList {
+  display: inline-block;
+}
+.email {
+  background-color: #101820;
+  border-left: 1px solid white;
+  display: flex;
+  width: 50%;
+}
+.emailForm {
+  margin-left: 40px;
+  width: 100%;
+}
+.emailContainer {
+  width: 100%;
+}
+.emailLabel {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: CalibreRegular;
+  letter-spacing: .086em;
+  margin-bottom: 16px;
+}
+
+
+.fab {
+  color: white;
+  font-size: 40px;
+  margin: 8px 16px 8px 0;
+  width: 48px;
+}
+
+.fas {
+  color: white;
+  font-size: 20px;
+}
+
+.input {
+  background-color: #101820;
+  border-top: none;
+  border-bottom: none;
+  border-right: 1px solid white;
+  border-left: none;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 46px;
+  width: calc(100% - 48px);
+  font-family: CalibreRegular;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #101820;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.formEntry {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  height: 48px;
+  width: 100%;
+}
+
+.additionalInfo {
+  display: flex;
+  margin: 54px 40px 40px;
+}
+
+.allCityColumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zagatCitiesContainer {
+  margin-right: 150px;
+  width: 66%;
+}
+.about {
+  width: 34%;
+}
+
+.aboutTitle, .zagatCities {
+  margin-bottom: 23px;
+  color:  #101820;
+  font-family: CalibreRegular;
+  letter-spacing: 0.086em;
+  font-size: 16px;
+  font-weight: 800;
+  text-shadow: .05px .05px #101820;
+}
+
+.information, .cities, .currentCity {
+  margin-bottom: 16px;
+  color:  #101820;
+  font-family: CalibreRegular;
+  letter-spacing: 0.013em;
+  font-size: 15px;
+  font-weight: 550;
+  text-shadow: .05px .05px #101820;
+}
+
+.currentCity {
+  color: #B7385E;
+}
+.information:hover {
+  color: #B7385E;
+ }
+
+ .cities:hover {
+   color: #B7385E;
+ }
+
+.bottomZagatLogo {
+  margin: 80px 40px 40px;
+  width: 100%;
+}

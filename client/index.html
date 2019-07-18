@@ -3,14 +3,111 @@
 <html>
   <head>
     <title>Proxy</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./proxyStyling.css">
     <link rel="stylesheet" href="https://jarrestnearby.s3-us-west-1.amazonaws.com/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
   </head>
   <body>
     <div>
-      <h1>Proxy</h1>
+      <h1 class="navBar">Nav Bar Goes Here</h1>
+    </div>
+    <div id="testDiv">
+      <div>Current Restaurant</div>
+      <div>Map and Hours</div>
     </div>
     <div id="app"></div>
+    <footer>
+      <div class="footerHead">
+        <div class="icons"> 
+          <a class="iconList"><span><i class="fab fa-instagram"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-twitter"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-periscope"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-facebook-f"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-snapchat-ghost"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-pinterest-p"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-tumblr"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-youtube"></i></span></a>
+          <a class="iconList"><span><i class="fab fa-google-plus-g"></i></span></a>
+        </div>
+        <div class="email">
+          <form class="emailForm">
+            <div class="emailContainer" layout="column">
+              <div class="emailLabel">GET ZAGAT'S NEWSLETTER IN YOUR INBOX...</div>
+              <div class="formEntry" layout="row">
+                <input class="input" type="input" placeholder="ENTER YOUR EMAIL">
+                <button class="button"><i class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="additionalInfo">
+        <div class="about" layout="column">
+          <div class="aboutTitle">ABOUT</div>
+          <a><div class="information">About Us</div></a>
+          <div class="information">Privacy & Terms</div>
+          <div class="information">Help</div>
+          <div class="information">All Restaurants</div>
+          <div class="information">Send Feedback</div>
+          <div class="information">Careers</div>
+        </div>
+        <div class="zagatCitiesContainer" layout="column">
+          <div class="zagatCities">ZAGAT CITIES</div>
+          <div class="allCityColumns">
+          <div class="zagatCitiesColumns">
+            <div class="currentCity">Denver</div>
+            <div class="cities">Pheonix / Scottsdale</div>
+            <div class="cities">Las Vegas</div>
+            <div class="cities">Atlanta</div>
+            <div class="cities">Austin</div>
+            <div class="cities">Baltimore</div>
+            <div class="cities">Boston</div>
+            <div class="cities">Charleston</div>
+            <div class="cities">Charlotte</div>
+            <div class="cities">Chicago</div>
+          </div>
+          <div class="zagatCitiesColumns">
+              <div class="cities">Cincinnati</div>
+              <div class="cities">Cleveland</div>
+              <div class="cities">Columbus</div>
+              <div class="cities">Dallas</div>
+              <div class="cities">Detroit</div>
+              <div class="cities">Houston</div>
+              <div class="cities">Indianapolis</div>
+              <div class="cities">Kansas City</div>
+              <div class="cities">Los Angeles</div>
+              <div class="cities">Miami</div>
+            </div>
+            <div class="zagatCitiesColumns">
+                <div class="cities">Milwaukee</div>
+                <div class="cities">Minneapolis</div>
+                <div class="cities">Nashville</div>
+                <div class="cities">New Orleans</div>
+                <div class="cities">New York City</div>
+                <div class="cities">Oakland / Berkeley</div>
+                <div class="cities">Orlando</div>
+                <div class="cities">Philadelphia</div>
+                <div class="cities">Portland</div>
+              </div>
+              <div class="zagatCitiesColumns">
+                  <div class="cities">Providence</div>
+                  <div class="cities">Salt Lake City</div>
+                  <div class="cities">San Antonio</div>
+                  <div class="cities">San Diego</div>
+                  <div class="cities">San Francisco</div>
+                  <div class="cities">Savannah</div>
+                  <div class="cities">Seattle</div>
+                  <div class="cities">St. Louis</div>
+                  <div class="cities">Washington, DC</div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="bottomLogo">
+        <img class="bottomZagatLogo" src="https://mfkrestaurant.com/wp-content/uploads/Zagat_Logo.png" style="width: 150px;">
+      </div>
+    </footer>
     <script src="https://jarrestnearby.s3-us-west-1.amazonaws.com/bundle.js"></script>
   </body>
 </html>
