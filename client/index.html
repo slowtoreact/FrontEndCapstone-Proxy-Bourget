@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Proxy</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./proxyStyling.css">
+  <link rel="stylesheet" href="https://jarrestnearby.s3-us-west-1.amazonaws.com/style.css">
+  <link rel="stylesheet" href="https://schewezagatbucket.s3-us-west-1.amazonaws.com/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+
+  <div id="nav">Nav Bar Goes Here</div>
+
+  <div id="restaurantData">
+    <div class="leftColumn">
+      <div class="leftColumnSpacing">
+        <div class="topLeftColumn">
+          <h1 class="restaurantTitle">The Kitchen</h1>
+          <h2 class="restaurantSum">American eatery with a farm-fresh menu</h2>
+          <div class="restaurantStyle"><span><a>American</a><span> · </span><a>$$$</a></span></div>
+          <div class="zagatRatingAndBar">
+            <div class="zagatBar"><img src="https://www.zagat.com/assets/img/z-logo-icon-red.svg"
+                style="width: 32px; margin-left: 83.3%; margin-top: -14.5px;"></div>
+            <div class="zagatReviewTitle">The Zagat Review</div>
+            <div class="scoreBreak">
+              <div class="foodScore">
+                <div class="scoreNumber">4.5</div>
+                <div class="whatIsScored">FOOD</div>
+              </div>
+              <div class="foodScore">
+                <div class="scoreNumberCenter">4.1</div>
+                <div class="whatIsScoredCenter">DECOR</div>
+              </div>
+              <div class="foodScore">
+                <div class="scoreNumber">4.4</div>
+                <div class="whatIsScored">SERVICE</div>
+              </div>
+            </div>
+            <div class="paragraphDesc">
+              <p class="zagatDesc">Having <span>“set the standard”</span> for the <span>“farm-to-table
+                  experience”</span> in Boulder,
+                this <span>“lovely”</span>, <span>“ecologically minded” “institution” “still delivers”</span> on the
+                promise of <span>“elegant”</span> yet <span>“wholesome”</span> seasonal
+                American dishes paired with <span>“fantastic”</span> wines by a <span>“helpful”</span>,
+                <span>“professional”</span> staff; though no less <span>“trendy”</span>, the
+                LoDo offshoot has <span>“its own personallity”</span> (not to mention a raw bar), as does the Fort
+                Collins branch with its <span>“neighborhood feel.”</span></p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="bottomLeftColumn">
+          <div class="knownFor">
+            <div class="knownForHeading">KNOWN FOR</div>
+            <div class="knownForIcons">
+              <div class="knownIcons"><img class="knownImages" src="https://www.zagat.com/assets/knownfor/drinks.svg">
+                <div class="knownForText">Drinks</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages"
+                  src="https://www.zagat.com/assets/knownfor/outdoor-seating.svg">
+                <div class="knownForText">Outdoor seating</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages"
+                  src="https://www.zagat.com/assets/knownfor/people-watching.svg">
+                <div class="knownForText">People watching</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages" src="https://www.zagat.com/assets/knownfor/brunch.svg">
+                <div class="knownForText">Brunch</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages" src="https://www.zagat.com/assets/knownfor/lunch.svg">
+                <div class="knownForText">Lunch</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages"
+                  src="https://www.zagat.com/assets/knownfor/placeholder.svg">
+                <div class="knownForText">Dinner</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages" src="https://www.zagat.com/assets/knownfor/takeout.svg">
+                <div class="knownForText">Takeout</div>
+              </div>
+              <div class="knownIcons"><img class="knownImages"
+                  src="https://www.zagat.com/assets/knownfor/lively-scenes.svg">
+                <div class="knownForText">Lively scenes</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="zagatMentions">
+            <div class="zagatMentionsHeader">ZAGAT MENTIONS OF THE KITCHEN</div>
+            <div class="zagatMentionsMedia">
+              <a class="zagatMediaCard">
+                <div class="insideZagatMediaCard">
+                  <div class="mediaCardImage1"></div>
+                  <div class="mediaCardContainer">
+                    <div class="mediaCardText">Denver's Best American Restaurants</div>
+                  </div>
+                </div>
+              </a>
+              <a class="zagatMediaCard">
+                <div class="insideZagatMediaCard">
+                  <div class="mediaCardImage2"></div>
+                  <div class="mediaCardContainer">
+                    <div class="mediaCardText">Pearls for Oysters: A Raw-Bar Roundup</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="showOthers">
+            <button class="showOtherMentions" type="button">SHOW ALL (18)</button>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div>Map and Hours</div>
+  </div>
+  <div id="app"></div>
+  <footer>
+    <div class="footerHead">
+      <div class="icons">
+        <div class="circle"><a class="iconList"><span><i class="fab fa-instagram"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-twitter"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-periscope"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-facebook-f"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-snapchat-ghost"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-pinterest-p"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-tumblr"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-youtube"></i></span></a></div>
+        <div class="circle"><a class="iconList"><span><i class="fab fa-google-plus-g"></i></span></a></div>
+      </div>
+      <div class="email">
+        <form class="emailForm">
+          <div class="emailContainer" layout="column">
+            <div class="emailLabel">GET ZAGAT'S NEWSLETTER IN YOUR INBOX...</div>
+            <div class="formEntry" layout="row">
+              <input class="input" type="input" placeholder="ENTER YOUR EMAIL">
+              <button class="button"><i class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="additionalInfo">
+      <div class="about" layout="column">
+        <div class="aboutTitle">ABOUT</div>
+        <a>
+          <div class="information">About Us</div>
+        </a>
+        <div class="information">Privacy & Terms</div>
+        <div class="information">Help</div>
+        <div class="information">All Restaurants</div>
+        <div class="information">Send Feedback</div>
+        <div class="information">Careers</div>
+      </div>
+      <div class="zagatCitiesContainer" layout="column">
+        <div class="zagatCities">ZAGAT CITIES</div>
+        <div class="allCityColumns">
+          <div class="zagatCitiesColumns">
+            <div class="currentCity">Denver</div>
+            <div class="cities">Pheonix / Scottsdale</div>
+            <div class="cities">Las Vegas</div>
+            <div class="cities">Atlanta</div>
+            <div class="cities">Austin</div>
+            <div class="cities">Baltimore</div>
+            <div class="cities">Boston</div>
+            <div class="cities">Charleston</div>
+            <div class="cities">Charlotte</div>
+            <div class="cities">Chicago</div>
+          </div>
+          <div class="zagatCitiesColumns">
+            <div class="cities">Cincinnati</div>
+            <div class="cities">Cleveland</div>
+            <div class="cities">Columbus</div>
+            <div class="cities">Dallas</div>
+            <div class="cities">Detroit</div>
+            <div class="cities">Houston</div>
+            <div class="cities">Indianapolis</div>
+            <div class="cities">Kansas City</div>
+            <div class="cities">Los Angeles</div>
+            <div class="cities">Miami</div>
+          </div>
+          <div class="zagatCitiesColumns">
+            <div class="cities">Milwaukee</div>
+            <div class="cities">Minneapolis</div>
+            <div class="cities">Nashville</div>
+            <div class="cities">New Orleans</div>
+            <div class="cities">New York City</div>
+            <div class="cities">Oakland / Berkeley</div>
+            <div class="cities">Orlando</div>
+            <div class="cities">Philadelphia</div>
+            <div class="cities">Portland</div>
+          </div>
+          <div class="zagatCitiesColumns">
+            <div class="cities">Providence</div>
+            <div class="cities">Salt Lake City</div>
+            <div class="cities">San Antonio</div>
+            <div class="cities">San Diego</div>
+            <div class="cities">San Francisco</div>
+            <div class="cities">Savannah</div>
+            <div class="cities">Seattle</div>
+            <div class="cities">St. Louis</div>
+            <div class="cities">Washington, DC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottomLogo">
+      <img class="bottomZagatLogo" src="https://mfkrestaurant.com/wp-content/uploads/Zagat_Logo.png"
+        style="width: 150px;">
+    </div>
+  </footer>
+  <script src="https://jarrestnearby.s3-us-west-1.amazonaws.com/bundle.js"></script>
+  <script src="https://schewezagatbucket.s3-us-west-1.amazonaws.com/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+@font-face {
+	font-family: 'CalibreRegular';
+	src: url('./fonts/CalibreRegular.otf') format('opentype');
+}
+
+.circle {
+  text-align: center;
+  text-justify: center;
+  -moz-border-radius: 46px/46px;
+  -webkit-border-radius: 46px 46px;
+  border-radius: 46px/46px;
+  border: 1px solid white;
+  width: 46px;
+  height: 46px;
+  margin: 8px 16px 8px 0;
+}
+
+
+body {
+  margin: 0px;
+}
+
+#restaurantData {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7vh;
+  margin-right: 7vh;
+  min-height: 500px;
+  margin-top: 30px;
+}
+
+.leftColumn {
+  width: 65%;
+  font-family: CalibreRegular;
+  margin-right: 40px;
+}
+
+.topLeftColumn {
+  background-color: white;
+  padding: 0 40px 40px;
+}
+.restaurantTitle{
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 28px 0px 0px;
+  text-transform: uppercase;
+}
+
+.restaurantSum {
+  color: #656666;
+  margin: 0;
+  padding: 2px 0 0;
+  font-size: 15px;
+  letter-spacing: 0.013em;
+  font-weight: 450;
+}
+.restaurantStyle a {
+  border-bottom: 1px solid #656666;
+}
+.restaurantStyle {
+  padding-top: 7px;
+  font-size: 15px;
+  letter-spacing: 0.013em;
+  color: #656666;
+}
+
+.zagatBar {
+    border-bottom: 1px #656666 solid;
+    border-top: 1px #656666 solid;
+    height: 2px;
+    margin: 23px 0 17px;
+}
+
+.zagatReviewTitle {
+    color: #656666;
+    font-size: 16px;
+    letter-spacing: .086em;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: .1px .1px #656666;
+}
+
+.scoreBreak {
+  width: 390px;
+  display: flex;
+  border-bottom: 1px #d0d2d3 solid;
+  margin-top: 17px;
+  padding-bottom: 16px;
+}
+
+.foodScore {
+  width: 130px;
+  text-align: center;
+}
+
+.scoreNumberCenter, .whatIsScoredCenter {
+  border-right: 1px #d0d2d3 solid;
+  border-left: 1px #d0d2d3 solid;
+}
+
+.scoreNumber, .scoreNumberCenter {
+  padding-bottom: 2px;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.086em;
+  text-transform: uppercase;
+}
+
+.whatIsScoredCenter, .whatIsScored {
+  font-size: 13px;
+  letter-spacing: .061em;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.zagatDesc {
+  font-size: 22px;
+  letter-spacing: .01em;
+  line-height: 32px;
+}
+
+.zagatDesc span {
+  font-weight: 900;
+}
+
+.bottomLeftColumn {
+  background-color: white;
+  padding: 0 24px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.knownForHeading {
+  margin-right: 16px;
+  margin-left: 16px;
+  padding-top: 33px;
+  color: #656666;
+  font-size: 16px;
+  letter-spacing: .086em;
+  font-weight: 900;
+}
+
+.knownForIcons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.knownIcons {
+  display: inline-block;
+  margin: 12px 16px 0;
+  width: 96px;
+}
+
+.knownImages {
+  display: block;
+  height: 72px;
+  width: 100%;
+}
+
+.zagatMentionsHeader {
+  margin-left: 16px;
+  margin-bottom: 17px;
+  padding-top: 33px;
+  color: #656666;
+  font-size: 16px;
+  letter-spacing: .086em;
+  font-weight: 900;
+}
+.zagatMentionsMedia {
+  display: flex;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.zagatMediaCard {
+  width: 50%;
+}
+
+.insideZagatMediaCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.mediaCardImage1 {
+  min-width: 120px;
+  min-height: 120px;
+  background-image: url("https://zagat-user.imgix.net/thekitchen_den.jpg");
+  background-size: cover;
+}
+
+.mediaCardImage2 {
+  min-width: 120px;
+  min-height: 120px;
+  background-image: url("https://zagat-user.imgix.net/AT_Oysters_Denver.JPG");
+  background-size: cover;
+}
+
+.mediaCardContainer {
+  align-items: center;
+  display: flex;
+  height: 76px;
+  width: calc(100% - 120px);
+  padding: 22px 14px; 
+}
+
+.mediaCardText {
+  font-size: 20px;
+  letter-spacing: .013em;
+  font-weight: 900;
+}
+
+.mediaCardText:hover {
+  cursor: pointer;
+  text-decoration: underline #b70038;
+}
+
+.insideZagatMediaCard {
+  height: 120px;
+}
+
+.showOthers {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+}
+.showOtherMentions {
+  margin-top: 40px;
+  width: 192px;
+  color: #b70038;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0.05px 0.05px #b70038;
+  letter-spacing: .086em;
+  text-transform: uppercase;
+  background: none;
+  border: 2px solid #b70038;
+  height: 40px;
+  text-align: center;
+}
+
+.showOtherMentions:hover {
+  background-color: #b70038;
+  color: white;
+}
+
+footer {
+  margin-top: 35px;
+  min-height: 500px;
+}
+
+.footerHead {
+  background-color: #101820;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+}
+.iconList {
+  display: inline-block;
+}
+.email {
+  background-color: #101820;
+  border-left: 1px solid #656666;
+  display: flex;
+  width: 50%;
+}
+.emailForm {
+  margin-left: 40px;
+  width: 100%;
+}
+.emailContainer {
+  width: 100%;
+}
+.emailLabel {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: CalibreRegular;
+  letter-spacing: .086em;
+  margin-bottom: 16px;
+}
+
+
+.fab {
+  color: white;
+  font-size: 25px;
+  margin: 10px 17px 8px 0;
+  width: 46px;
+}
+
+.fas {
+  color: white;
+  font-size: 20px;
+}
+
+.input {
+  background-color: #101820;
+  border-top: none;
+  border-bottom: none;
+  border-right: 1px solid white;
+  border-left: none;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 46px;
+  width: calc(100% - 48px);
+  font-family: CalibreRegular;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #101820;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.formEntry {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  height: 48px;
+  width: 100%;
+}
+
+.additionalInfo {
+  display: flex;
+  margin: 54px 40px 40px;
+}
+
+.allCityColumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zagatCitiesContainer {
+  margin-right: 150px;
+  width: 66%;
+}
+.about {
+  width: 34%;
+}
+
+.aboutTitle, .zagatCities {
+  margin-bottom: 23px;
+  color:  #101820;
+  font-family: CalibreRegular;
+  letter-spacing: 0.086em;
+  font-size: 16px;
+  font-weight: 800;
+  text-shadow: .05px .05px #101820;
+}
+
+.information, .cities, .currentCity {
+  margin-bottom: 16px;
+  color:  #101820;
+  font-family: CalibreRegular;
+  letter-spacing: 0.013em;
+  font-size: 15px;
+  font-weight: 550;
+  text-shadow: .05px .05px #101820;
+}
+
+.currentCity {
+  cursor: pointer;
+  color: #B7385E;
+}
+.information:hover {
+  cursor: pointer;
+  color: #B7385E;
+ }
+
+ .cities:hover {
+   cursor: pointer;
+   color: #B7385E;
+ }
+
+.bottomZagatLogo {
+  margin: 80px 40px 40px;
+  width: 100%;
+}
+
+.circle:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.circle:hover .fab {
+  color: black;
+}
